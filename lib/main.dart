@@ -4,6 +4,7 @@ import 'package:gridview_flutter/pages/P001/home.dart';
 
 void main() => runApp(
   MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Home(),
   )
 );
